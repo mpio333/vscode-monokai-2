@@ -1,21 +1,26 @@
 {
-    "name": "monokai-2-0",
-    "displayName": "Monokai 2.0",
-    "description": "Vscode's monokai theme with monokai pro colors",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.67.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Monokai 2.0",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Monokai 2.0-color-theme.json"
-            }
-        ]
-    }
+  "name": "monokai-2-0",
+  "displayName": "Monokai 2.0",
+  "description": "Vscode's monokai theme with monokai pro colors",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monokai 2.0 - Shusia",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shusia-color-theme.json"
+      },
+      {
+        "label": "Monokai 2.0 - Default",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sonokai-color-theme.json"
+      }
+    ]
+  }
 }
